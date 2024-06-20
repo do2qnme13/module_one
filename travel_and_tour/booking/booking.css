@@ -1,0 +1,57 @@
+body {
+  background-color: whitesmoke;
+}
+
+.booking-header {
+  padding: 10rem 6rem 0 6rem;
+  text-align: center;
+  color: darkblue;
+  text-shadow: 0 0 5px rgba(3, 5, 32, 0.5);
+}
+.trip-activities-container {
+  margin: 6rem;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.trip-activities-container h2 {
+  color: darkblue;
+}
+
+.trip-activities-container p {
+  color: rgb(39, 39, 39);
+  line-height: 30px;
+  font-size: 1rem;
+}
+
+.activity1,
+.activity2,
+.activity3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.activity1 {
+  flex: 1;
+  justify-content: space-between;
+}
+.activity2 {
+  flex: 1.5;
+  padding-bottom: 1rem;
+}
+
+.activity3 {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.activity1 img,
+.activity2 img,
+.activity3 img {
+  width: 100%;
+}
+
+.activity2 img {
+  height: 50%;
+  object-fit: cover;
+}

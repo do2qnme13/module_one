@@ -1,0 +1,140 @@
+body {
+  background: rgb(247, 243, 243);
+}
+
+.about__company {
+  display: flex;
+  position: relative;
+  padding: 10rem 4rem;
+}
+.about__company-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.about__company-info h1,
+.about__founder-info h1,
+.about_team h1 {
+  color: var(--header-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+}
+.about__company-info p,
+.about__founder-info p,
+.about_team h3 {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.about__company-img {
+  display: flex;
+  padding: 4rem 10rem;
+  position: relative;
+}
+.about__company-img img {
+  width: 400px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-img2 {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+  z-index: -1;
+}
+
+.about__founder {
+  display: flex;
+  width: 100%;
+  padding: 5rem 10rem;
+}
+
+.about__founder-img-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__founder-img-div img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about__founder-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding-right: 2em;
+}
+.about_team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 6rem;
+  padding: 4rem;
+  gap: 5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.about_team-img-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.employee-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 5rem;
+}
+
+.about_team-img-div img {
+  width: 150px;
+  border-radius: 5px;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about_awards {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5rem 7rem 0 7rem;
+}
+
+.award-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+}
+.award-div img {
+  width: 200px;
+}
+.about_awards h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+.award-div h2 {
+  font-size: 2rem;
+  color: rgb(206, 151, 51);
+  text-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+}
+.reverse {
+  flex-direction: row-reverse;
+}
