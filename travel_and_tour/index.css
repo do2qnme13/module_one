@@ -435,7 +435,7 @@ footer {
 }
 
 .appears-y {
-  animation: appears-y 3s forwards;
+  animation: appears-y 1.5s forwards;
 }
 @keyframes appears-y {
   0% {
